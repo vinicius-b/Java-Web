@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Teste" path="/Teste" reloadable="true" source="org.eclipse.jst.jee.server:Teste"/><Context docBase="sistema-vendas" path="/sistema-vendas" reloadable="true" source="org.eclipse.jst.jee.server:sistema-vendas"/></Host>
+      <Context docBase="sistema-vendas" path="/sistema-vendas" reloadable="true" source="org.eclipse.jst.jee.server:sistema-vendas"/><Context docBase="sistema-vendas" path="/sistema-vendas" reloadable="true" source="org.eclipse.jst.jee.server:sistema-vendas"/><Context docBase="sistema-vendas" path="/sistema-vendas" reloadable="true" source="org.eclipse.jst.jee.server:sistema-vendas"/><Context docBase="sistema-vendas" path="/sistema-vendas" reloadable="true" source="org.eclipse.jst.jee.server:sistema-vendas"/><Context docBase="sistema-vendas" path="/sistema-vendas" reloadable="true" source="org.eclipse.jst.jee.server:sistema-vendas"/><Context docBase="sistema-vendas" path="/sistema-vendas" reloadable="true" source="org.eclipse.jst.jee.server:sistema-vendas"/><Context docBase="sistema-vendas" path="/sistema-vendas" reloadable="true" source="org.eclipse.jst.jee.server:sistema-vendas"/><Context docBase="sistema-vendas" path="/sistema-vendas" reloadable="true" source="org.eclipse.jst.jee.server:sistema-vendas"/></Host>
     </Engine>
   </Service>
 </Server>
